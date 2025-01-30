@@ -13,13 +13,14 @@ This project is a **Math ChatBot** built using Python. The chatbot assists users
 1. Integration
 2. Differentiation
 3. Simplification
+*Interactive User Interface*: Users can interact with the chatbot through a simple command-line interface.
 
 ---
-*Interactive User Interface*: Users can interact with the chatbot through a simple command-line interface.
-**Technologies Used**
-*Python*: The core programming language used.
-*SymPy*: A Python library for symbolic mathematics, used for tasks like integration, differentiation, and simplification.
-*Hugging Face*: Used for integrating advanced machine learning models, allowing the chatbot to improve responses over time.
+## Technologies Used
+
+1. Python: The core programming language used.
+2. SymPy: A Python library for symbolic mathematics, used for tasks like integration, differentiation, and simplification.
+3. Hugging Face: Used for integrating advanced machine learning models, allowing the chatbot to improve responses over time.
 
 ---
 
