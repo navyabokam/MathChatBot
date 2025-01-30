@@ -95,14 +95,4 @@ Contributions are welcome! Please follow these steps:
 
 ---
 
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
----
-
-## Just Follow Me and Star⭐ My Repository
-If you find this project useful, please give it a ⭐ on GitHub!
-
----
-
-This `README.md` provides a clear and structured guide for users to set up, use, and contribute to your **Math ChatBot**. Let me know if you need further assistance!
