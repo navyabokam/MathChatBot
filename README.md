@@ -86,7 +86,7 @@ This project is a **Math ChatBot** built using Python. The chatbot assists users
 ### Simple UI
 ![Simple UI](https://github.com/navyabokam/MathChatBot/blob/83916da74cb0bde1b3db48cc85e5f1c4d731a17a/Screenshot%202025-01-30%20124827.png)
 
-### While Solving Math Problems
+## Data stored in JSON file with input, output, name, timestamp
 ![Data Stored in file](https://github.com/navyabokam/MathChatBot/blob/fc5e77f095b838ca35c9f5fe056976bccb4f1ffc/json_file_screenshot_Data.png)
 
 ---
