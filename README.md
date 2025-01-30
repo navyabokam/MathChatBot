@@ -67,7 +67,7 @@ This project is a **Math ChatBot** built using Python. It helps users solve math
 ## Screenshots
 
 ### Simple UI
-![Simple UI](Screenshot 2025-01-30 124827.png)
+![Simple UI]([Screenshot 2025-01-30 124827.png](https://github.com/navyabokam/MathChatBot/blob/fe473142b6688ac8c956b8b73d06509252660069/Screenshot%202025-01-30%20124827.png))
 
 ### While Solving Math Problems
 ![Solving Math Problems](screenshots/solving_math.png)
