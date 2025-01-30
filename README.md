@@ -70,7 +70,7 @@ This project is a **Math ChatBot** built using Python. It helps users solve math
 ![Simple UI]([Screenshot 2025-01-30 124827.png](https://github.com/navyabokam/MathChatBot/blob/fe473142b6688ac8c956b8b73d06509252660069/Screenshot%202025-01-30%20124827.png))
 
 ### While Solving Math Problems
-![Solving Math Problems]([screenshots/solving_math.png](https://github.com/navyabokam/MathChatBot/blob/00aca8910bdf028d092749836112b96d35ce0a7e/json_file_screenshot_Data.png))
+![Data Stored in file](https://github.com/navyabokam/MathChatBot/blob/fc5e77f095b838ca35c9f5fe056976bccb4f1ffc/json_file_screenshot_Data.png)
 
 ---
 
