@@ -5,12 +5,14 @@
 ## Overview
 This project is a **Math ChatBot** built using Python. The chatbot assists users in solving mathematical problems interactively. It can perform basic arithmetic operations and also integrate advanced mathematical functionalities using libraries like SymPy.
 
+---
+
 **Features**
 *Basic Arithmetic*: Handles operations like addition, subtraction, multiplication, and division.
 *Advanced Math Functions*: Utilizes SymPy for symbolic mathematics, such as:
-Integration
-Differentiation
-Simplification
+-Integration
+-Differentiation
+-Simplification
 *Interactive User Interface*: Users can interact with the chatbot through a simple command-line interface.
 **Technologies Used**
 *Python*: The core programming language used.
