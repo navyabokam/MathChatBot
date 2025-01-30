@@ -1,9 +1,21 @@
-Math ChatBot
+## Math ChatBot
 
 ![forthebadge made-with-python](https://forthebadge.com/images/badges/made-with-python.svg)
 
 ## Overview
-This project is a **Math ChatBot** built using Python. It helps users solve mathematical problems interactively. The chatbot can handle basic arithmetic operations and provides a user-friendly interface for interaction.
+This project is a **Math ChatBot** built using Python. The chatbot assists users in solving mathematical problems interactively. It can perform basic arithmetic operations and also integrate advanced mathematical functionalities using libraries like SymPy.
+
+**Features**
+*Basic Arithmetic*: Handles operations like addition, subtraction, multiplication, and division.
+*Advanced Math Functions*: Utilizes SymPy for symbolic mathematics, such as:
+Integration
+Differentiation
+Simplification
+*Interactive User Interface*: Users can interact with the chatbot through a simple command-line interface.
+**Technologies Used**
+*Python*: The core programming language used.
+*SymPy*: A Python library for symbolic mathematics, used for tasks like integration, differentiation, and simplification.
+*Hugging Face*: Used for integrating advanced machine learning models, allowing the chatbot to improve responses over time.
 
 ---
 
