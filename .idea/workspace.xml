@@ -6,6 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="6facdef1-1675-4444-9066-aa1c6a16c1b7" name="Changes" comment="MathChatBot">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatbot_ui.py" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot_ui.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/math_chatbot.py" beforeDir="false" afterPath="$PROJECT_DIR$/math_chatbot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/queries.json" beforeDir="false" afterPath="$PROJECT_DIR$/queries.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,8 +131,27 @@
       <option name="project" value="LOCAL" />
       <updated>1738207805726</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="MathChatBot">
+      <option name="closed" value="true" />
+      <created>1738217835019</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1738217835019</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="MathChatBot" />

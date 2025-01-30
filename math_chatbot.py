@@ -3,14 +3,14 @@ import datetime
 import logging
 import sympy
 import re
-from sympy import symbols, solve, diff, integrate
+from sympy import symbols, diff, integrate, solve
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
+# File to store queries
 QUERIES_FILE = "queries.json"
-
 
 def solve_math_problem(question):
     """
@@ -90,17 +90,3 @@ def store_query(user, question, answer):
 
     except Exception as e:
         logger.error(f"Error storing query: {str(e)}")
-
-
-if __name__ == "__main__":
-    # Test cases
-    test_cases = [
-        "2 + 2",
-        "derivative of x^2 + 3x + 5",
-        "integrate x^2 + 2x",
-        "solve x^2 + 2x + 1 = 0"
-    ]
-
-    for test in test_cases:
-        print(f"\nTesting: {test}")
-        print(f"Result: {solve_math_problem(test)}")

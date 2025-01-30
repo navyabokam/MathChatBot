@@ -1,4 +1,3 @@
-# chatbot_ui.py
 import gradio as gr
 import requests
 import logging
@@ -10,7 +9,6 @@ logger = logging.getLogger(__name__)
 # Backend API URL
 BACKEND_URL = "http://localhost:5000/solve"
 
-
 def math_chatbot(query, user):
     """Handle math queries by sending them to the backend"""
     try:
@@ -20,9 +18,11 @@ def math_chatbot(query, user):
             return "Please enter a math problem."
 
         # Send request to backend
-        response = requests.post(BACKEND_URL,
-                                 json={"question": query, "user": user},
-                                 timeout=10)
+        response = requests.post(
+            BACKEND_URL,
+            json={"question": query, "user": user},
+            timeout=10
+        )
 
         if response.status_code == 200:
             result = response.json()
@@ -40,22 +40,32 @@ def math_chatbot(query, user):
         return f"Error: {str(e)}"
 
 
-# Create interface
+# Create enhanced interface
 def create_interface():
-    return gr.Interface(
-        fn=math_chatbot,
-        inputs=[
-            gr.Textbox(label="Enter your math problem", placeholder="e.g., 2 + 2"),
-            gr.Textbox(label="Your Name", placeholder="Enter your name", value="Anonymous")
-        ],
-        outputs=gr.Textbox(label="Solution"),
-        title="AI Math Chatbot",
-        description="Ask me any math problem! I can help with basic calculations.",
-        examples=[
-            ["2 + 2", "StudentA"],
-            ["10 * 5", "StudentB"],
-        ]
-    )
+    with gr.Blocks() as demo:
+        gr.Markdown("# AI Math Chatbot")
+        gr.Markdown("Ask me any math problem! I can help with basic arithmetic, derivatives, integrals, and more.")
+
+        with gr.Row():
+            with gr.Column():
+                query_input = gr.Textbox(label="Enter your math problem", placeholder="e.g., integrate x^2 dx", lines=2)
+                user_input = gr.Textbox(label="Your Name", placeholder="Enter your name", value="Anonymous")
+                submit_button = gr.Button("Submit")
+            with gr.Column():
+                output = gr.Textbox(label="Solution", interactive=False)
+
+        gr.Examples(
+            examples=[
+                ["integrate x^2 dx", "Alice"],
+                ["derivative of sin(x)", "Bob"],
+                ["solve x^2 + 2x + 1 = 0", "Charlie"],
+            ],
+            inputs=[query_input, user_input]
+        )
+
+        submit_button.click(fn=math_chatbot, inputs=[query_input, user_input], outputs=output)
+
+    return demo
 
 
 if __name__ == "__main__":
