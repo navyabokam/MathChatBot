@@ -13,8 +13,6 @@ This project is a **Math ChatBot** built using Python. It helps users solve math
 3. [Project Flow & Explanation](#project-flow--explanation)
 4. [Steps to Run the Project](#steps-to-run-the-project)
 5. [Screenshots](#screenshots)
-6. [Contributing](#contributing)
-7. [License](#license)
 
 ---
 
